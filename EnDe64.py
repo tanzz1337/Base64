@@ -25,6 +25,7 @@ def encode64():
     print('Base64 Encode \t:', urlSafeEncodeStr)
 
     # Output Code
+    # path output sesuaikan dengan keinginan anda
     path = r"C:\Users\ASUS\Desktop\Encode64.txt"
     f = open(path,'w')
     f.write(str("Encode Result :"))
@@ -50,6 +51,7 @@ def decode64():
     print('Base64 Decode \t:', data)
 
     # Output Code
+    # path output sesuaikan dengan keinginan anda
     path = r"C:\Users\ASUS\Desktop\Decode64.txt"
     f = open(path, 'w')
     f.write(str("Decode Result :"))
